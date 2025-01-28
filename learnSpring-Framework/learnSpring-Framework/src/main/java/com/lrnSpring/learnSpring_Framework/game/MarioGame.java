@@ -1,5 +1,8 @@
 package com.lrnSpring.learnSpring_Framework.game;
 
+import org.springframework.stereotype.Component;
+
+
 public class MarioGame implements GameConsole {
     public String toString() {
         return "Mario Game";

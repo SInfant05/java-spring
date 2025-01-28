@@ -1,5 +1,8 @@
 package com.lrnSpring.learnSpring_Framework.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PacmanGame implements GameConsole {
     public String toString() {
         return "Pacman Game";
